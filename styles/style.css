@@ -241,7 +241,7 @@ ol {
   display: grid;
   width: 395px;
   height: 298px;
-  padding: 3px 2.5px 0;
+  padding: 2px 2.5px 0;
   overflow: auto;
 }
 
