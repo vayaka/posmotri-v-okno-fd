@@ -148,8 +148,8 @@ ol {
 }
 
 .search-form__textfield:active {
-  border-top: 1px solid #fff;
-  border-bottom: 1px solid #fff;
+  border-left: 1px solid #fff;
+  border-right: 1px solid #fff;
 }
 
 .search-form__textfield:focus-visible {
