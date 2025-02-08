@@ -150,7 +150,6 @@ ol {
 .search-form__textfield:active {
   border-top: 1px solid #fff;
   border-bottom: 1px solid #fff;
-  outline-offset: -2px;
 }
 
 .search-form__textfield:focus-visible {
