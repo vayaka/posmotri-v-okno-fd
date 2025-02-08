@@ -144,6 +144,7 @@ ol {
   font-style: normal;
   line-height: normal;
   background-color: transparent;
+  appearance: none;
 }
 
 .search-form__textfield:active {
@@ -193,6 +194,10 @@ ol {
   border: 1px solid #1b1919;
   opacity: 0;
   background-color: #fff;
+}
+
+.search-form__label:has(.search-form__checkbox:checked) .search-form__label-text {
+  text-decoration: none;
 }
 
 .search-form__label:hover .search-form__label-text {
@@ -277,6 +282,7 @@ ol {
 }
 
 .content__card-link:active {
+  text-decoration: none;
   background-color: #545050;
 }
 
@@ -307,7 +313,6 @@ ol {
   font-size: 18px;
   line-height: 16.2px;
   text-overflow: ellipsis;
-  line-clamp: 1;
   -webkit-line-clamp: 1;
 }
 
